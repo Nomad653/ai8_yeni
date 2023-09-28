@@ -1,6 +1,6 @@
 import cmd
 from colorama import Fore,init
-
+#Bu bir shell proqramidir
 class Turtle(cmd.Cmd):
 
     intro = Fore.GREEN + 'Xos gelmishsiniz!'
