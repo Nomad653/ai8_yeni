@@ -13,5 +13,8 @@ class Turtle(cmd.Cmd):
 
         print(Fore.YELLOW+ "Salam Dunya!")
 
+    def do_exit(self,arg):
+
+        print('exited')
 if __name__ == "__main__":
     Turtle().cmdloop()
